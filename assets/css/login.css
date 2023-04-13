@@ -1,0 +1,79 @@
+/* Định dạng phần header */
+body {
+  color: black;
+}
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Định dạng form đăng nhập */
+.signup-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.signup-form h2 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    line-height: 100%;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form .form-control {
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.signup-form .btn-block {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.signup-form .btn-block:hover {
+    background-color: #212529;
+}
+
+.signup-form a {
+    color: #343a40;
+}
+
+.signup-form a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+/* Định dạng thông báo lỗi */
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 38px;
+    line-height: 100%;
+}

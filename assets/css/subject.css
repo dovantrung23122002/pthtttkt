@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 500px;
+    background-color: #342e37;
+    color: #fff;
+    padding: 25;
+}
+
+.sidebar .logo {
+    margin-left: 30px;
+    margin-top: 37px;
+    font-size: 20px;
+    line-height: 38px;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    margin-left: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 38px;
+    line-height: 100%;
+    color: #f4f4f4;
+    margin-top: 30px;
+}
+
+.sidebar ul li:nth-child(5) {
+    margin-left: 100px;
+}
+
+/*  Main Header */
+
+.main {
+    width: 100%;
+}
+
+.main .header1 {
+    background-color: #c4c4c4;
+}
+
+.main .header {
+    margin-left: 23px;
+}
+
+.report {
+    margin-top: 46px;
+    margin-left: 61px;
+}
+/*  Table   */
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+th {
+    /* background-color: #42b7e8; */
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+td::before {
+    content: "";
+    display: inline-block;
+    width: 51px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+td.red::before {
+    background-color: #cf2e2e;
+}
+
+td.green::before {
+    background-color: #42d135;
+}
+
+.action-cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.action-cell div {
+    width: 51px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.action-cell .red {
+    background-color: #cf2e2e;
+}
+
+.action-cell .green {
+    background-color: #42d135;
+}
+
+.report th,
+.report td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.report th {
+    background-color: #0071bd;
+    color: #fff;
+}
+
+.report td:last-child {
+    text-align: center;
+}
+
+.report a {
+    text-decoration: none;
+    color: #0071bd;
+}
+
+.report a:hover {
+    text-decoration: underline;
+}
+
+/* CSS Form */
+
+form {
+    background-color: #ffffff;
+    width: 505px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    margin-left: 30px;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+form h3 {
+    margin-top: 14px;
+    margin-bottom: 120px;
+}
+
+form label:first-child {
+    margin-top: 38px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdf;
+    margin-bottom: 15px;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+form input[type="submit"] {
+    background-color: #0071bd;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color: #004e8c;
+}
+
+table thead tr:first-child {
+    text-align: center;
+    margin-left: 100px;
+    width: 510px;
+}

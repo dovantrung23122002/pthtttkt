@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 500px;
+    background-color: #342e37;
+    color: #fff;
+    padding: 25;
+}
+.sidebar .logo {
+    margin-left: 30px;
+    margin-top: 37px;
+    font-size: 20px;
+    line-height: 38px;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+.sidebar ul li a {
+    margin-left: 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 38px;
+    line-height: 100%;
+    color: #f4f4f4;
+    margin-top: 30px;
+}
+.sidebar ul li:nth-child(5) {
+    margin-left: 100px;
+}
+
+/*  Main Header */
+.main {
+    width: 100%;
+}
+.main .header1 {
+    background-color: #c4c4c4;
+}
+.main .header {
+    margin-left: 23px;
+}
+.report {
+    margin-top: 46px;
+    margin-left: 61px;
+}
+
+.report table {
+    margin-top: 32px;
+}
+/*  CSS Form    */
+
+form {
+    background-color: #ffffff;
+    width: 505px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    margin-left: 265px;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+form h3 {
+    margin-top: 14px;
+    margin-bottom: 120px;
+}
+
+form label:first-child {
+    margin-top: 38px;
+}
+form input[type="text"],
+form input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdf;
+    margin-bottom: 15px;
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+form input[type="submit"] {
+    background-color: #0071bd;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background-color: #004e8c;
+}

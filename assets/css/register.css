@@ -1,0 +1,70 @@
+/* Styles for Signup Form */
+body {
+    color: black;
+}
+.signup-form {
+    width: 500px;
+    margin: 50px auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.signup-form p {
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    font-size: 16px;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="text"]:focus,
+.signup-form input[type="email"]:focus,
+.signup-form input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+.signup-form label {
+    font-size: 14px;
+}
+
+.signup-form input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.signup-form button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: #343a40;
+}
+
+.signup-form a {
+    color: #343a40;
+}
+
+.signup-form a:hover {
+    color: #0069d9;
+}
